@@ -36,17 +36,18 @@ breaking_bad = media.TVShow("Breaking Bad",
                             "teams up with his former student to cook and sell crystal meth.",
                             "https://upload.wikimedia.org/wikipedia/en/6/61/Breaking_Bad_title_card.png",  # noqa
                             "https://www.youtube.com/watch?v=HhesaQXLuRY",
-                            "2008–2013",
+                            "2008-2013",
                             "5")
 
 game_of_thrones = media.TVShow("Game of Thrones",
                                "While a civil war brews between several noble families in Westeros,"
-                               "the children of the former rulers of the land attempt to rise up to power."
-                               "Meanwhile a forgotten race, bent on destruction, return after"
+                               "the children of the former rulers of the land attempt to"
+                               "rise up to power. Meanwhile a forgotten race,"
+                               "bent on destruction, return after"
                                "thousands of years in the North.",
                                "https://upload.wikimedia.org/wikipedia/en/d/d8/Game_of_Thrones_title_card.jpg",  # noqa
                                "https://www.youtube.com/watch?v=IxI8aPISq8I",
-                               "2011 -",
+                               "2011-",
                                "6")
 
 

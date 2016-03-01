@@ -2,7 +2,8 @@ import webbrowser
 
 
 class Media():
-    """Media is the parent class for Movie and TVShow classes, it contains all generic information for both"""
+    """Media is the parent class for Movie and TVShow classes,
+    it contains all generic information for both"""
 
     def __init__(self, title, story_line, poster_image_url,
                  trailer_youtube_url, year):
@@ -14,7 +15,8 @@ class Media():
 
 
 class Movie(Media):
-    """Movie class is a child class of Media, specifically for holding movies information"""
+    """Movie class is a child class of Media,
+    specifically for holding movies information"""
 
     def __init__(self, title, story_line, poster_image_url,
                  trailer_youtube_url, year, duration):
@@ -24,7 +26,8 @@ class Movie(Media):
 
 
 class TVShow(Media):
-    """TVShow class is a child class of Media, specifically for holding tv shows information"""
+    """TVShow class is a child class of Media,
+    specifically for holding tv shows information"""
 
     def __init__(self, title, story_line, poster_image_url,
                  trailer_youtube_url, year, seasons_count):
